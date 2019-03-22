@@ -1,0 +1,61 @@
+# Awesome Connected and Automated Vehicles
+
+## 3D Object Detection
+
+### 2019
+
+- **3D Backbone Network for 3D Object Detection** [Arxiv][[Paper](https://arxiv.org/pdf/1901.08373.pdf), [Code](https://github.com/Benzlxs/tDBN)]
+    > **Authors:** Xuesong Li, Jose E Guivant, Ngaiming Kwok, Yongzhi Xu <br>
+    > **Abstract:** The task of detecting 3D objects in point cloud has a pivotal role in many real-world applications. However,3D object detection performance is behind that of 2D object detection due to the lack of powerful 3D feature extraction methods. In order to address this issue, we propose to build a 3D backbone network to learn rich 3D feature maps by using sparse 3D CNN operations for 3D object detection in point cloud. The 3D backbone network can inherently learn 3D features from almost raw data without compressing point cloud...
+
+### 2018
+
+- **LMNet: Real-time Multiclass Object Detection on CPU using 3D LiDAR** [ACIRS 2018] [[Paper](https://arxiv.org/pdf/1805.04902.pdf), [Code](https://github.com/CPFL/Autoware/tree/feature/cnn_lidar_detection)]
+    > **Authors:** Kazuki Minemura, Hengfui Liau, Abraham Monrroy, Shinpei Kato <br>
+    > **Abstract:** This paper describes an optimized single-stage deep convolutional neural network to detect objects in urban environments, using nothing more than point cloud data. This feature enables our method to work regardless the time of the day and the lighting conditions. The proposed network structure employs dilated convolutions to gradually increase the perceptive field as depth increases, this helps to reduce the computation time by about 30%. The network input consists of five perspective representations of the unorganized...
+
+- **SBNet: Sparse Blocks Network for Fast Inference** [Arxiv] [[Paper](https://arxiv.org/pdf/1801.02108.pdf), [Code](https://github.com/uber/sbnet)]
+    > **Authors:** Mengye Ren, Andrei Pokrovsky, Bin Yang, Raquel Urtasun <br>
+    > **Abstract:** Conventional deep convolutional neural networks (CNNs) apply convolution operators uniformly in space across all feature maps for hundreds of layers - this incurs a high computational cost for real-time applications. For many problems such as object detection and semantic segmentation, we are able to obtain a low-cost computation mask, either from a priori problem knowledge, or from a low-resolution segmentation network. We show that such computation masks can be used to reduce computation in the high-resolution...
+
+- **Joint 3D Proposal Generation and Object Detection from View Aggregation** [IROS 2018] [[Paper](https://arxiv.org/pdf/1712.02294), [Code](https://github.com/kujason/avod)]
+    > **Authors:** Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, Steven Waslander <br>
+    > **Abstract:** We present AVOD, an Aggregate View Object Detection network for autonomous driving scenarios. The proposed neural network architecture uses LIDAR point clouds and RGB images to generate features that are shared by two subnetworks: a region proposal network (RPN) and a second stage detector network. The proposed RPN uses a novel architecture capable of performing multimodal feature fusion on high resolution feature maps to generate reliable 3D object proposals for multiple object classes in road scenes. ...
+
+- **PointPillars: Fast Encoders for Object Detection from Point Clouds** [Arxiv] [[Paper](https://arxiv.org/pdf/1812.05784), [Code](https://github.com/nutonomy/second.pytorch)]
+    > **Authors:** Alex H. Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, Oscar Beijbom <br>
+    > **Abstract:** Object detection in point clouds is an important aspect of many robotics applications such as autonomous driving. In this paper we consider the problem of encoding a point cloud into a format appropriate for a downstream detection pipeline. Recent literature suggests two types of encoders; fixed encoders tend to be fast but sacrifice accuracy, while encoders that are learned from data are more accurate, but slower. In this work we propose PointPillars, a novel encoder which utilizes PointNets to learn a representation of point clouds...
+
+- **RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement** [Arxiv] [[Paper](https://arxiv.org/pdf/1811.03818v1.pdf), [Code](https://github.com/Kiwoo/RoarNet)]
+    > **Authors:** Kiwoo Shin, Youngwook Paul Kwon, Masayoshi Tomizuka <br>
+    > **Abstract:** We present RoarNet, a new approach for 3D object detection from a 2D image and 3D Lidar point clouds. Based on two-stage object detection framework with PointNet as our backbone network, we suggest several novel ideas to improve 3D object detection performance. The first part of our method, RoarNet_2D, estimates the 3D poses of objects from a monocular image, which approximates where to examine further, and derives multiple candidates that are geometrically feasible. ...
+
+- **Eliminating the Blind Spot: Adapting 3D Object Detection and Monocular Depth Estimation to 360◦ Panoramic Imagery** [ECCV 2018][[Paper](https://arxiv.org/pdf/1808.06253v1.pdf), [Code](https://github.com/gdlg/panoramic-depth-estimation)]
+    > **Authors:** Grégoire Payen de La Garanderie, Amir Atapour Abarghouei, Toby P. Breckon <br>
+    > **Abstract:** Recent automotive vision work has focused almost exclusively on processing forward-facing cameras. However, future autonomous vehicles will not be viable without a more comprehensive surround sensing, akin to a human driver, as can be provided by 360° panoramic cameras. We present an approach to adapt contemporary deep network architectures developed on conventional rectilinear imagery to work on equirectangular 360° panoramic imagery. To address the lack of annotated panoramic automotive datasets availability, ...
+
+- **PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation** [CVPR 2018] [[Paper](https://arxiv.org/abs/1711.10871)]
+    > **Authors:** Danfei Xu, Dragomir Anguelov, Ashesh Jain <br>
+    > **Abstract:**   We present PointFusion, a generic 3D object detection method that leverages both image and 3D point cloud information. Unlike existing methods that either use multi-stage pipelines or hold sensor and dataset-specific assumptions, PointFusion is conceptually simple and application-agnostic. The image data and the raw point cloud data are independently processed by a CNN and a PointNet architecture, respectively. The resulting outputs are then combined by a novel fusion network, which predicts multiple 3D box hypotheses and their confi...
+
+- **Frustum PointNets for 3D Object Detection from RGB-D Data** [CVPR 2018] [[Paper](https://arxiv.org/abs/1711.08488), [Code](https://github.com/charlesq34/frustum-pointnets)]
+    > **Authors:** Charles R. Qi, Wei Liu, Chenxia Wu, Hao Su, Leonidas J. Guibas <br>
+    > **Abstract:**   In this work, we study 3D object detection from RGB-D data in both indoor and outdoor scenes. While previous methods focus on images or 3D voxels, often obscuring natural 3D patterns and invariances of 3D data, we directly operate on raw point clouds by popping up RGB-D scans. However, a key challenge of this approach is how to efficiently localize objects in point clouds of large-scale scenes (region proposal). Instead of solely relying on 3D proposals, our method leverages both mature 2D object detectors and advanced 3D deep learni...
+
+- **Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net** [publication][[Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf)]
+    > **Authors:** Wenjie Luo, Bin Yang, Raquel Urtasun
+    > **Abstract:** In this paper we propose a novel deep neural network that is able to jointly reason about 3D detection, tracking and motion forecasting given data captured by a 3D sensor. By jointly reasoning about these tasks, our holistic approach is more robust to occlusion as well as sparse data at range. Our approach performs 3D convolutions across space and time over a bird’s eye view representation of the 3D world, which is very efficient in terms of both memory...
+
+- **PIXOR: Real-time 3D Object Detection from Point Clouds** [CVPR 2018] [[Paper](https://arxiv.org/abs/1902.06326)]
+    > **Authors:** Bin Yang, Wenjie Luo, Raquel Urtasun <br>
+    > **Abstract:**   We address the problem of real-time 3D object detection from point clouds in the context of autonomous driving. Computation speed is critical as detection is a necessary component for safety. Existing approaches are, however, expensive in computation due to high dimensionality of point clouds. We utilize the 3D data more efficiently by representing the scene from the Bird's Eye View (BEV), and propose PIXOR, a proposal-free, single-stage detector that outputs oriented 3D object estimates decoded from pixel-wise...
+
+- **Multi-Level Fusion based 3D Object Detection from Monocular Images** [CVPR 2018][[Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf)]
+    > **Authors:** Bin Xu, Zhenzhong Chen
+    > **Abstract:** In this paper, we present an end-to-end multi-level fusion based framework for 3D object detection from a single monocular image. The whole network is composed of two parts: one for 2D region proposal generation and another for simultaneously predictions of objects’ 2D locations, orientations, dimensions, and 3D locations. With the help of a stand-alone module to estimate the disparity and compute the 3D point cloud, we introduce the multi-level fusion scheme. ...
+
+### 2017
+
+- **Multi-View 3D Object Detection Network for Autonomous Driving** [CVPR 2017] [[Paper](https://arxiv.org/pdf/1611.07759), [Code](https://github.com/bostondiditeam/MV3D)]
+    > **Authors:** Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia <br>
+    > **Abstract:** This paper aims at high-accuracy 3D object detection in autonomous driving scenario. We propose Multi-View 3D networks (MV3D), a sensory-fusion framework that takes both LIDAR point cloud and RGB images as input and predicts oriented 3D bounding boxes. We encode the sparse 3D point cloud with a compact multi-view representation. The network is composed of two subnetworks: one for 3D object proposal generation and another for multi-view feature fusion. ...
