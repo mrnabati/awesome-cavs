@@ -4,7 +4,7 @@ My curated list of interesting topics, papers and other resources for Connected
 and Automated Vehicles. This repository is being updated on an ongoing basis as
 I find/read papers and other resources, but pull requests are always welcome!
 
-For each paper, I'll try include a link to the implementation code if available.
+For each paper, I'll try to include a link to the implementation code if available.
 I'm also including a preview of the paper's abstract along with its authors names
 and publishing journal/conference.
 
