@@ -14,6 +14,7 @@ and publishing journal/conference.
 - [Datasets](#datasets)
 - [Courses](#courses)
 - [Simulation Tools](#simulation-tools)
+- [Open Source Software](#open-source-software)
 
 ## Papers
 
@@ -36,7 +37,9 @@ and publishing journal/conference.
 
 - [NuScenes](https://www.nuscenes.org/)
   
-  The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv. The final dataset will include approximately 1.4M camera images, 400k LIDAR sweeps, 1.3M RADAR sweeps and 1.1M object bounding boxes in 40k keyframes.
+  The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset 
+  for autonomous driving provided by nuTonomy-Aptiv. The final dataset will 
+  include approximately 1.4M camera images, 400k LIDAR sweeps, 1.3M RADAR sweeps and 1.1M object bounding boxes in 40k keyframes.
 <br><br>
 
 - [Udacity](https://github.com/udacity/self-driving-car/tree/master/datasets)
@@ -47,15 +50,35 @@ and publishing journal/conference.
 
 - [Udacity: Self-Driving Car Nanodegree Program](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
   
-  If your goal is to learn the skills necessary to become a self-driving car engineer, and then secure a rewarding role in the field where you can start applying those skills, this program is the ideal choice. 
+  If your goal is to learn the skills necessary to become a self-driving car 
+  engineer, and then secure a rewarding role in the field where you can start 
+  applying those skills, this program is the ideal choice. 
 
 ## Simulation Tools
 
 - [CARLA](http://carla.org/)
 
-  CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites, environmental conditions, full control of all static and dynamic actors, maps generation and much more.
+  CARLA has been developed from the ground up to support development, training, 
+  and validation of autonomous driving systems. In addition to open-source code 
+  and protocols, CARLA provides open digital assets (urban layouts, buildings, 
+  vehicles) that were created for this purpose and can be used freely. The 
+  simulation platform supports flexible specification of sensor suites, 
+  environmental conditions, full control of all static and dynamic actors, maps 
+  generation and much more.
 <br><br>
 
 - [Appolo](http://apollo.auto/)
   
-  Apollo is a high performance, flexible architecture which accelerates the development, testing, and deployment of Autonomous Vehicles.
+  Apollo is a high performance, flexible architecture which accelerates the 
+  development, testing, and deployment of Autonomous Vehicles.
+
+## Open Source Software
+
+- [Robot Operating System (ROS)](http://www.ros.org/)
+  
+  ROS (Robot Operating System) provides libraries and tools to help software 
+  developers create robot applications. It provides hardware abstraction, device 
+  drivers, libraries, visualizers, message-passing, package management, and more. 
+  ROS is licensed under an open source, BSD license.
+
+  - [Introduction to ROS - ETH Zurich](https://www.youtube.com/watch?v=0BxVPCInS3M)

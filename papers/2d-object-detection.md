@@ -17,8 +17,3 @@
 - **SNIPER: Efficient Multi-Scale Training** [NIPS 2018] [[Paper](https://arxiv.org/abs/1805.09300), [Code](https://github.com/mahyarnajibi/SNIPER)]
     > **Authors:** Bharat Singh, Mahyar Najibi, Larry S. Davis <br>
     > **Abstract:**   We present SNIPER, an algorithm for performing efficient multi-scale training in instance level visual recognition tasks. Instead of processing every pixel in an image pyramid, SNIPER processes context regions around ground-truth instances (referred to as chips) at the appropriate scale. For background sampling, these context-regions are generated using proposals extracted from a region proposal network trained with a short learning schedule. Hence, the number of chips generated per image during training adaptively changes based on t...
-
-
-### 2017
-
-### 2016

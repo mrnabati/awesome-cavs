@@ -18,7 +18,7 @@ def parse_args():
 
     parser.add_argument('-m', dest='max_abstract_len',
                         help='Maximum number of characters in the abstract',
-                        default=550)
+                        default=520)
     
     parser.add_argument('-p',
                         help='Where is the paper published.',
