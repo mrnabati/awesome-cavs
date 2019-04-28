@@ -8,6 +8,23 @@
     > **Authors:** Xuesong Li, Jose E Guivant, Ngaiming Kwok, Yongzhi Xu <br>
     > **Abstract:** The task of detecting 3D objects in point cloud has a pivotal role in many real-world applications. However,3D object detection performance is behind that of 2D object detection due to the lack of powerful 3D feature extraction methods. In order to address this issue, we propose to build a 3D backbone network to learn rich 3D feature maps by using sparse 3D CNN operations for 3D object detection in point cloud. The 3D backbone network can inherently learn 3D features from almost raw data without compressing point cloud...
 
+- **Focal Loss in 3D Object Detection** [IEEE Robotics and Automation Letters 2019] [[Paper](https://arxiv.org/abs/1809.06065), [Code](https://sites.google.com/view/fl3d)]
+    > **Authors:** Peng Yun, Lei Tai, Yuan Wang, Chengju Liu, Ming Liu <br>
+    > **Abstract:**   3D object detection is still an open problem in autonomous driving scenes. When recognizing and localizing key objects from sparse 3D inputs, autonomous vehicles suffer from a larger continuous searching space and higher fore-background imbalance compared to image-based object detection. In this paper, we aim to solve this fore-background imbalance in 3D object detection. Inspired by the recent use of focal loss in image-based object detection, we extend this hard-mining improvement of binary cross entro...
+
+- **Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud** [Arxiv] [[Paper](https://arxiv.org/abs/1903.09847)]
+    > **Authors:** Xinshuo Weng, Kris Kitani <br>
+    > **Abstract:**   Monocular 3D scene understanding tasks, such as object size estimation, heading angle estimation and 3D localization, is challenging. Successful modern day methods for 3D scene understanding require the use of a 3D sensor such as a depth camera, a stereo camera or LiDAR. On the other hand, single image based methods have significantly worse performance, but rightly so, as there is little explicit depth information in a 2D image. In this work, we aim at bridging the performance gap between 3D sensing and ...
+
+- **Stereo R-CNN based 3D Object Detection for Autonomous Driving** [CVPR 2019] [[Paper](https://arxiv.org/abs/1902.09738)]
+    > **Authors:** Peiliang Li, Xiaozhi Chen, Shaojie Shen <br>
+    > **Abstract:**   We propose a 3D object detection method for autonomous driving by fully exploiting the sparse and dense, semantic and geometry information in stereo imagery. Our method, called Stereo R-CNN, extends Faster R-CNN for stereo inputs to simultaneously detect and associate object in left and right images. We add extra branches after stereo Region Proposal Network (RPN) to predict sparse keypoints, viewpoints, and object dimensions, which are combined with 2D left-right boxes to calculate a coarse 3D object bo...
+
+- **PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud** [CVPR 2019] [[Paper](https://arxiv.org/abs/1812.04244), [Code](https://github.com/sshaoshuai/PointRCNN)]
+    > **Authors:** Shaoshuai Shi, Xiaogang Wang, Hongsheng Li <br>
+    > **Abstract:**   In this paper, we propose PointRCNN for 3D object detection from raw point cloud. The whole framework is composed of two stages: stage-1 for the bottom-up 3D proposal generation and stage-2 for refining proposals in the canonical coordinates to obtain the final detection results. Instead of generating proposals from RGB image or projecting point cloud to bird's view or voxels as previous methods do, our stage-1 sub-network directly generates a small number of high-quality 3D proposals from point cloud in...
+
+
 ### 2018
 
 - **LMNet: Real-time Multiclass Object Detection on CPU using 3D LiDAR** [ACIRS 2018] [[Paper](https://arxiv.org/pdf/1805.04902.pdf), [Code](https://github.com/CPFL/Autoware/tree/feature/cnn_lidar_detection)]
@@ -53,6 +70,10 @@
 - **Multi-Level Fusion based 3D Object Detection from Monocular Images** [CVPR 2018][[Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf)]
     > **Authors:** Bin Xu, Zhenzhong Chen
     > **Abstract:** In this paper, we present an end-to-end multi-level fusion based framework for 3D object detection from a single monocular image. The whole network is composed of two parts: one for 2D region proposal generation and another for simultaneously predictions of objects’ 2D locations, orientations, dimensions, and 3D locations. With the help of a stand-alone module to estimate the disparity and compute the 3D point cloud, we introduce the multi-level fusion scheme. ...
+
+- **SECOND: Sparsely Embedded Convolutional Detection** [Sensors 2018] [[Paper](https://pdfs.semanticscholar.org/5125/a16039cabc6320c908a4764f32596e018ad3.pdf), [Code](https://github.com/traveller59/second.pytorch)]
+    > **Authors:** Yan Yan, Yuxing Mao, Bo Li <br>
+    > **Abstract:** LiDAR-based or RGB-D-based object detection is used in numerous applications, ranging from autonomous driving to robot vision. Voxel-based 3D convolutional networks have been used for some time to enhance the retention of information when processing point cloud LiDAR data. However, problems remain, including a slow inference speed and low orientation estimation performance. We therefore investigate an improved sparse convolution method for such networks, which significantly increases the speed of both training and inference. We also introduce a new...
 
 ### 2017
 
