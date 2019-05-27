@@ -4,6 +4,11 @@
 
 ### 2019
 
+- **RRPN: Radar Region Proposal Network for Object Detection in Autonomous Vehicles** [ICIP 2019] [[Paper](https://arxiv.org/abs/1905.00526), [Code](https://github.com/mrnabati/RRPN)]
+    > **Authors:** Ramin Nabati, Hairong Qi <br>
+    > **Abstract:**   Region proposal algorithms play an important role in most state-of-the-art two-stage object detection networks by hypothesizing object locations in the image. Nonetheless, region proposal algorithms are known to be the bottleneck in most two-stage object detection networks, increasing the processing time for each image and resulting in slow networks not suitable for real-time applications such as autonomous driving vehicles. In this paper we introduce RRPN, a Radar-based real-time region proposal algorit...
+
+
 - **Bottom-up Object Detection by Grouping Extreme and Center Points** [Arxiv] [[Paper](https://arxiv.org/abs/1901.08043v2), [Code](https://github.com/xingyizhou/ExtremeNet)]
     > **Authors:** Xingyi Zhou, Jiacheng Zhuo, Philipp Krähenbühl <br>
     > **Abstract:**   With the advent of deep learning, object detection drifted from a bottom-up to a top-down recognition problem. State of the art algorithms enumerate a near-exhaustive list of object locations and classify each into: object or not. In this paper, we show that bottom-up approaches still perform competitively. We detect four extreme points (top-most, left-most, bottom-most, right-most) and one center point of objects using a standard keypoint estimation network. We group the five keypoints into a bounding box if they are geometrically a...
