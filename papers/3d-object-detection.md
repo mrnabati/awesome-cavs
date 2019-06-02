@@ -3,6 +3,9 @@
 ## 3D Object Detection
 
 ### 2019
+- **PointPillars: Fast Encoders for Object Detection from Point Clouds** [CVPR 2019] [[Paper](https://arxiv.org/pdf/1812.05784), [Code](https://github.com/nutonomy/second.pytorch)]
+    > **Authors:** Alex H. Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, Oscar Beijbom <br>
+    > **Abstract:** Object detection in point clouds is an important aspect of many robotics applications such as autonomous driving. In this paper we consider the problem of encoding a point cloud into a format appropriate for a downstream detection pipeline. Recent literature suggests two types of encoders; fixed encoders tend to be fast but sacrifice accuracy, while encoders that are learned from data are more accurate, but slower. In this work we propose PointPillars, a novel encoder which utilizes PointNets to learn a representation of point clouds...
 
 - **3D Backbone Network for 3D Object Detection** [Arxiv][[Paper](https://arxiv.org/pdf/1901.08373.pdf), [Code](https://github.com/Benzlxs/tDBN)]
     > **Authors:** Xuesong Li, Jose E Guivant, Ngaiming Kwok, Yongzhi Xu <br>
@@ -38,10 +41,6 @@
 - **Joint 3D Proposal Generation and Object Detection from View Aggregation** [IROS 2018] [[Paper](https://arxiv.org/pdf/1712.02294), [Code](https://github.com/kujason/avod)]
     > **Authors:** Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, Steven Waslander <br>
     > **Abstract:** We present AVOD, an Aggregate View Object Detection network for autonomous driving scenarios. The proposed neural network architecture uses LIDAR point clouds and RGB images to generate features that are shared by two subnetworks: a region proposal network (RPN) and a second stage detector network. The proposed RPN uses a novel architecture capable of performing multimodal feature fusion on high resolution feature maps to generate reliable 3D object proposals for multiple object classes in road scenes. ...
-
-- **PointPillars: Fast Encoders for Object Detection from Point Clouds** [Arxiv] [[Paper](https://arxiv.org/pdf/1812.05784), [Code](https://github.com/nutonomy/second.pytorch)]
-    > **Authors:** Alex H. Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, Oscar Beijbom <br>
-    > **Abstract:** Object detection in point clouds is an important aspect of many robotics applications such as autonomous driving. In this paper we consider the problem of encoding a point cloud into a format appropriate for a downstream detection pipeline. Recent literature suggests two types of encoders; fixed encoders tend to be fast but sacrifice accuracy, while encoders that are learned from data are more accurate, but slower. In this work we propose PointPillars, a novel encoder which utilizes PointNets to learn a representation of point clouds...
 
 - **RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement** [Arxiv] [[Paper](https://arxiv.org/pdf/1811.03818v1.pdf), [Code](https://github.com/Kiwoo/RoarNet)]
     > **Authors:** Kiwoo Shin, Youngwook Paul Kwon, Masayoshi Tomizuka <br>
